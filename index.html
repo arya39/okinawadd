@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- cnd links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <!-- css -->
+    <style>
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(255, 249, 249);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        .dis {
+            display: flex;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="ns">
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <a href=""> MS automobiles</a></span>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <main class="landing">
+        <div class="page">
+            <div class="page-eg">
+            <div class="page-img">
+                <img src="PraiseProSide2.png" alt="">
+            </div>
+            <div class="page-text">
+                <h2>
+                    <u>Okinawa</u>
+                </h2>
+                <h3>Power <span class="clr">the change</span></h3>
+                <p class="pate-cnt">
+                <b>    Believe </b>in a product that goes a long way. Our scooters have been carefully designed with best in class
+                    technology. Featuring the technology that is working wonders by being energy efficient and equally admired by
+                    the customers.
+                </p>
+                <div class="social-link">
+
+                    <ul class="social-ul">
+                        <li><a href=""><i class="fab fa-whatsapp-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+   <section class="gali-list">
+
+    <div class="gadi-head-name">
+        <h2> <u>Some More products</u> </h2>
+    </div>
+
+       <div class="list-of-oki">
+           <div class="cards">
+               <div class="card">
+                   <img src="/img/Dual-image-1.png" alt="">
+                   <div class="img-h4"><h4>Dual</h4></div>
+               </div>
+               <div class="card">
+                <img src="/img/praisepro-scooter (1).png" alt="">
+                <div class="img-h4"><h4>Dual</h4></div>
+               </div>
+               <div class="card">
+                <img src="/img/r30-scooter.png" alt="">
+                <div class="img-h4"><h4>Dual</h4></div>
+               </div>
+               <div class="card">
+                <img src="/img/ridge-plus (1).png" alt="">
+                <div class="img-h4"><h4>Dual</h4></div>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+
+
+
+
+
+</body>
+<script src="https://kit.fontawesome.com/e8eec9b766.js" crossorigin="anonymous"></script>
+</html>
